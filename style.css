@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: red;
+}
+.div {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  visibility: hidden;
+}
+span {
+  display: inline-block;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+.container {
+  display: grid;
+  gap: 1rem;
+  background-color: cyan;
+}
+
+.position {
+  border: 2px solid black;
+  height: 300px;
+  margin: 20px;
+  position: relative;
+  overflow: auto;
+  padding: 10px;
+}
+
+.position div {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.static {
+  background: gray;
+  position: static;
+}
+
+.relative {
+  background: blue;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.absolute {
+  background: green;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.fixed {
+  background: red;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.sticky {
+  background: purple;
+  position: sticky;
+  top: 0;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  background: #f3f3f3;
+  padding: 5px;
+}
+
+.box div {
+  background: lightblue;
+  width: 300px;
+  height: 150px;
+}
+
+.visible {
+  overflow: visible;
+}
+.hidden {
+  overflow: hidden;
+}
+.scroll {
+  overflow: scroll;
+}
+.auto {
+  overflow: auto;
+}
+.clip {
+  overflow: clip;
+}
